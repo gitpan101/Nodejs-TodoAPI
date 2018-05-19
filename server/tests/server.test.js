@@ -191,7 +191,7 @@ describe('GET /users/me', () => {
         })
         .end(done);
     });
-;})
+});
 
 describe('POST /users', () => {
     it('should create a user', (done) => {
